@@ -9,23 +9,35 @@
 /* Begin PBXBuildFile section */
 		E0ED080B277C7DF700F4A556 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ED080A277C7DF700F4A556 /* AppDelegate.swift */; };
 		E0ED080D277C7DF700F4A556 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ED080C277C7DF700F4A556 /* SceneDelegate.swift */; };
-		E0ED080F277C7DF700F4A556 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ED080E277C7DF700F4A556 /* ViewController.swift */; };
+		E0ED080F277C7DF700F4A556 /* SportsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ED080E277C7DF700F4A556 /* SportsVC.swift */; };
 		E0ED0812277C7DF700F4A556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0ED0810277C7DF700F4A556 /* Main.storyboard */; };
 		E0ED0815277C7DF700F4A556 /* SportsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0ED0813277C7DF700F4A556 /* SportsApp.xcdatamodeld */; };
 		E0ED0817277C7DF900F4A556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0ED0816277C7DF900F4A556 /* Assets.xcassets */; };
 		E0ED081A277C7DF900F4A556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0ED0818277C7DF900F4A556 /* LaunchScreen.storyboard */; };
+		E0ED08A2277C9A6D00F4A556 /* PlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ED08A1277C9A6D00F4A556 /* PlayerVC.swift */; };
+		E0ED08A4277C9B3100F4A556 /* SportsCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ED08A3277C9B3100F4A556 /* SportsCustomCell.swift */; };
+		E0ED08B1277CA69900F4A556 /* SportEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ED08AD277CA69900F4A556 /* SportEntity+CoreDataClass.swift */; };
+		E0ED08B2277CA69900F4A556 /* SportEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ED08AE277CA69900F4A556 /* SportEntity+CoreDataProperties.swift */; };
+		E0ED08B3277CA69900F4A556 /* PlyerEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ED08AF277CA69900F4A556 /* PlyerEntity+CoreDataClass.swift */; };
+		E0ED08B4277CA69900F4A556 /* PlyerEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ED08B0277CA69900F4A556 /* PlyerEntity+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E0ED0807277C7DF700F4A556 /* SportsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0ED080A277C7DF700F4A556 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0ED080C277C7DF700F4A556 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E0ED080E277C7DF700F4A556 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0ED080E277C7DF700F4A556 /* SportsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsVC.swift; sourceTree = "<group>"; };
 		E0ED0811277C7DF700F4A556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0ED0814277C7DF700F4A556 /* SportsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SportsApp.xcdatamodel; sourceTree = "<group>"; };
 		E0ED0816277C7DF900F4A556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0ED0819277C7DF900F4A556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0ED081B277C7DF900F4A556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0ED08A1277C9A6D00F4A556 /* PlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerVC.swift; sourceTree = "<group>"; };
+		E0ED08A3277C9B3100F4A556 /* SportsCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsCustomCell.swift; sourceTree = "<group>"; };
+		E0ED08AD277CA69900F4A556 /* SportEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SportEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E0ED08AE277CA69900F4A556 /* SportEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SportEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E0ED08AF277CA69900F4A556 /* PlyerEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlyerEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E0ED08B0277CA69900F4A556 /* PlyerEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlyerEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +54,10 @@
 		E0ED07FE277C7DF700F4A556 = {
 			isa = PBXGroup;
 			children = (
+				E0ED08AD277CA69900F4A556 /* SportEntity+CoreDataClass.swift */,
+				E0ED08AE277CA69900F4A556 /* SportEntity+CoreDataProperties.swift */,
+				E0ED08AF277CA69900F4A556 /* PlyerEntity+CoreDataClass.swift */,
+				E0ED08B0277CA69900F4A556 /* PlyerEntity+CoreDataProperties.swift */,
 				E0ED0809277C7DF700F4A556 /* SportsApp */,
 				E0ED0808277C7DF700F4A556 /* Products */,
 			);
@@ -60,8 +76,10 @@
 			children = (
 				E0ED080A277C7DF700F4A556 /* AppDelegate.swift */,
 				E0ED080C277C7DF700F4A556 /* SceneDelegate.swift */,
-				E0ED080E277C7DF700F4A556 /* ViewController.swift */,
+				E0ED080E277C7DF700F4A556 /* SportsVC.swift */,
 				E0ED0810277C7DF700F4A556 /* Main.storyboard */,
+				E0ED08A3277C9B3100F4A556 /* SportsCustomCell.swift */,
+				E0ED08A1277C9A6D00F4A556 /* PlayerVC.swift */,
 				E0ED0816277C7DF900F4A556 /* Assets.xcassets */,
 				E0ED0818277C7DF900F4A556 /* LaunchScreen.storyboard */,
 				E0ED081B277C7DF900F4A556 /* Info.plist */,
@@ -141,10 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0ED080F277C7DF700F4A556 /* ViewController.swift in Sources */,
+				E0ED080F277C7DF700F4A556 /* SportsVC.swift in Sources */,
 				E0ED080B277C7DF700F4A556 /* AppDelegate.swift in Sources */,
 				E0ED0815277C7DF700F4A556 /* SportsApp.xcdatamodeld in Sources */,
+				E0ED08B3277CA69900F4A556 /* PlyerEntity+CoreDataClass.swift in Sources */,
 				E0ED080D277C7DF700F4A556 /* SceneDelegate.swift in Sources */,
+				E0ED08B1277CA69900F4A556 /* SportEntity+CoreDataClass.swift in Sources */,
+				E0ED08A2277C9A6D00F4A556 /* PlayerVC.swift in Sources */,
+				E0ED08A4277C9B3100F4A556 /* SportsCustomCell.swift in Sources */,
+				E0ED08B2277CA69900F4A556 /* SportEntity+CoreDataProperties.swift in Sources */,
+				E0ED08B4277CA69900F4A556 /* PlyerEntity+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

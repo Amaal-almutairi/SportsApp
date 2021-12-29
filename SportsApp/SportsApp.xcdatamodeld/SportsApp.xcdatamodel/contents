@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PlyerEntity" representedClassName=".PlyerEntity" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="String"/>
+        <attribute name="hight" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="sportEntity" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SportEntity" inverseName="plyerEntity" inverseEntity="SportEntity"/>
+    </entity>
+    <entity name="SportEntity" representedClassName=".SportEntity" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="plyerEntity" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="PlyerEntity" inverseName="sportEntity" inverseEntity="PlyerEntity"/>
+    </entity>
+    <elements>
+        <element name="SportEntity" positionX="-63" positionY="-18" width="128" height="74"/>
+        <element name="PlyerEntity" positionX="-54" positionY="9" width="128" height="89"/>
+    </elements>
 </model>
